@@ -1,0 +1,53 @@
+body {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  min-height: 1000vh;
+}
+
+.parallax-container {
+  background-attachment: fixed;
+
+  min-height: 100vh;
+  background-position: center;
+}
+
+.buffer {
+  background-color: rgb(21, 28, 34);
+  min-height: 30vh;
+}
+
+.image-1 {
+  background-image: url(./assets/dunes1.avif);
+}
+
+.image-2 {
+  background-image: url(./assets/street.avif);
+}
+
+/* Utility */
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+/* Effect */
+.glass-smoked {
+  /* From https://css.glass */
+  background: rgba(18, 18, 18, 0.21);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
