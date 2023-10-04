@@ -1,35 +1,30 @@
+/* Overrides */
 body {
   margin: 0px;
-  display: flex;
-  flex-direction: column;
-  min-height: 1000vh;
 }
 
+/* Parallax effekten */
 .parallax-container {
   background-attachment: fixed;
 
-  min-height: 100vh;
   background-position: center;
-}
-
-.buffer {
-  background-color: rgb(21, 28, 34);
-  min-height: 30vh;
+  height: 100vh;
 }
 
 .image-1 {
-  background-image: url(./assets/dunes1.avif);
+  background-image: url(assets/dunes.avif);
 }
 
 .image-2 {
-  background-image: url(./assets/street.avif);
+  background-image: url(assets/street.avif);
+}
+
+.buffer {
+  height: 20vh;
+  background-color: rgb(14, 21, 26);
 }
 
 /* Utility */
-.flex {
-  display: flex;
-}
-
 .flex-col {
   display: flex;
   flex-direction: column;
@@ -39,9 +34,6 @@ body {
   justify-content: center;
 }
 
-.items-center {
-  align-items: center;
-}
 
 /* Effect */
 .glass-smoked {
